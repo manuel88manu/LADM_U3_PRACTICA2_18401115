@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".PropietarioActualizar">
+
+    <EditText
+        android:id="@+id/txtcurp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Curp"></EditText>
+
+    <EditText
+        android:id="@+id/txtnombrePropietario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nombre De Propietario"></EditText>
+
+
+    <EditText
+        android:id="@+id/txttelefono"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:hint="telefono"></EditText>
+
+    <EditText
+        android:id="@+id/txtedadPropietario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="edad"></EditText>
+
+    <Button
+        android:id="@+id/btnActualizar"
+        android:layout_width="250dp"
+        android:layout_height="85dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginVertical="30dp"
+        android:text="ACTUALIZAR"
+        android:textColor="@color/white"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:id="@+id/btnRegresar"></Button>
+
+
+</LinearLayout>

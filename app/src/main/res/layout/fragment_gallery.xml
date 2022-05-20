@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".ui.gallery.GalleryFragment">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Agregar Nuevo Propietario"
+        ></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Curp"
+        android:id="@+id/etCurp"></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre De Propietario"
+        android:id="@+id/etNombre"></EditText>
+
+    <EditText
+        android:id="@+id/etTelefono"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:hint="telefono"></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="edad"
+        android:id="@+id/etEdad"></EditText>
+
+    <Button
+        android:id="@+id/insertar"
+        android:layout_width="180dp"
+        android:layout_height="59dp"
+        android:text="INSERTAR"
+        android:textColor="@color/white"
+        android:textSize="21sp"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="BUSCAR Y MODIFICAR"></TextView>
+    <EditText
+        android:id="@+id/etBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Buscar Datos por"></EditText>
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/radBuscar"
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"
+                android:text="BUSCAR CURP"/>
+            <RadioButton
+                android:id="@+id/radBuscarNombre"
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"
+                android:text="BUSCAR NOMBRE"/>
+            <RadioButton
+                android:id="@+id/radBuscarTelefono"
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"
+                android:text="BUSCAR TEL"/>
+            <RadioButton
+                android:id="@+id/radBuscarEdad"
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"
+                android:text="BUSCAR EDAD"/>
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listaPropietario"
+        android:layout_width="match_parent"
+        android:layout_height="274dp"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

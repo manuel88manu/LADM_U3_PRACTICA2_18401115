@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "676213398738",
+    "project_id": "proyectopractica2-41537",
+    "storage_bucket": "proyectopractica2-41537.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676213398738:android:8c16aa2f65992c6bcfe10b",
+        "android_client_info": {
+          "package_name": "mx.edu.ladm_u3_practica2_18401115"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676213398738-q6sb3bkbml1aqcj8kunq2fd8kt5idmo1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArnQt4AkAEryLZmJsWe1BrdXLhvDlCtME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676213398738-q6sb3bkbml1aqcj8kunq2fd8kt5idmo1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
